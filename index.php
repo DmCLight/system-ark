@@ -29,7 +29,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="icon-1">
             <img src="imagens/icone.png" width="250px" alt="">
         </div>
@@ -65,15 +65,14 @@
                 </div>
             </div>
         </form>
-
+    </div>
         <div class="footer-menu">
-            <div class="btn-group  footer-btn">
+            <div class="btn-group">
                 <a class="btn btn-a" role="button">Termos de uso</a>
                 <a class="btn btn-a" role="button">Desenvolvedor</a>
                 <a class="btn btn-a" role="button">Contato      </a>
             </div>
         </div>
-    </div>
 </body>
 
 </html>

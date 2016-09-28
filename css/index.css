@@ -22,6 +22,7 @@ body {
     height: auto;
     width: auto;
     margin-top: 20%;
+    float: left;
 }
 
 .titulo {
@@ -41,13 +42,8 @@ body {
     position: fixed;
     bottom: 0;
     height: 30px;
-    width: 110%;
-    margin-left: -10%;
+    width: 100%;
     background-color: #999999;
-}
-
-.footer-btn {
-    margin-left: 3.5%;
 }
 
 a {
