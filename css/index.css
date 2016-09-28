@@ -19,9 +19,9 @@ body {
 .form-horizontal {
     border-radius: 13px;
     border: 2px solid black;
-    height: 175px;
+    height: auto;
+    width: auto;
     margin-top: 20%;
-    float: left;
 }
 
 .titulo {
@@ -35,10 +35,6 @@ body {
     margin-left: 40%;
     margin-top: 2.5%;
     margin-bottom: -17.5%;
-}
-
-.selectpicker select {
-    font-size: 8px;
 }
 
 .footer-menu {

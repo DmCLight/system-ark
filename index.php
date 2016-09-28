@@ -53,7 +53,7 @@
                 <div class="col-md-12">
                     <input type="submit" name="submitLoginInfo" value="Entrar" class="btn" />
                     <input type="button" value="Trocar a senha" class="btn" />
-                    <select class="selectpicker" data-live-search="true" data-width="44.5%" name="userLevel">
+                    <select class="selectpicker" data-live-search="true" data-width="48.25%" name="userLevel">
 						<optgroup>
 							<option value = "1">Coordenador(a) Geral</option>
 							<option value = "2">Coordenador(a)</option>
