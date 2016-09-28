@@ -5,7 +5,7 @@ class UserLogin {
 	private $level;
 	function __construct() {
 		if (isset($_POST['submitLoginInfo'])) {
-			$this->password = htmlspecialchars($_POST['userPassword']);
+			$this->password = crypt(password_hash(htmlspecialchars($_POST['userPassword']), PASSWORD_DEFAULT));
 			$this->username = htmlspecialchars($_POST['userLogin']);
 			$this->level    = htmlspecialchars($_POST['userLevel']);
 		}
@@ -32,4 +32,5 @@ class UserLogin {
 }
 
 $print = new UserLogin;
-echo $print->getPassword();
+echo $print->getPassword()."\n";
+echo mcrypt_decrypt($print->getPassword());

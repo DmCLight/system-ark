@@ -30,3 +30,6 @@
             $this->dbConnect = NULL;
         }
     }
+
+    $con = new DatabaseConnect;
+    $con->getConnection();
